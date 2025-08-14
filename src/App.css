@@ -140,7 +140,7 @@ button {
     justify-content: center;
     flex-wrap: wrap;
     gap: 12px;
-    margin-left: 380px;
+    /* margin-left: 180px; */
     margin-top: 20px;
 }
 
@@ -572,6 +572,8 @@ footer {
           width: 824px;
           height: 155px;
           margin-left: 10px;
+          box-shadow: #E3E3E3 0px 0px 10px;
+        
         }
        .overviewD1{
              display: flex;
@@ -583,6 +585,7 @@ footer {
         margin-top: 20px;
         justify-content: space-between;
         gap: 30px;
+        
         }
         .co-image{
           display: flex;
@@ -641,12 +644,16 @@ footer {
           display: flex;
           flex-direction: column;
           gap: 20px;
+          color: #6F6F6F;
         }
 
         .co-right_section{
           margin-right: 100px;
           margin-left: 1000px;
           width: 400px;
+          box-shadow: #E3E3E3 0px 0px 10px;
+          height: 787px;
+        
           
         }
         .co-button{
@@ -674,3 +681,18 @@ footer {
             flex-direction: column;
             gap: 30px;
         }
+.co-d3_p{
+  display: flex;
+  gap: 20px;
+}
+.tick-mark{
+  margin-top: 0;
+
+}
+.co-right_section_span3{
+  display: flex;
+  flex-direction: initial;
+  gap: 10px;
+
+  /* flex-direction: row; */
+}

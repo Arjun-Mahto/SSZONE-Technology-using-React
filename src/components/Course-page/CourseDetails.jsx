@@ -1,5 +1,7 @@
 
+import Courses from "../../Courses";
 import Navbar from "../Home-page/Navbar";
+import Footer from "../Home-page/Footer";
 
 function CourseOverview() {
   return (
@@ -44,6 +46,7 @@ function CourseOverview() {
                         <button className="co-button">Enroll Now</button>
                         
                         </span>
+
                              <span className="co-right_section_span2">
                             <p ><b>This Course Includes:</b></p>
                             <p> 62 hours on-demand video</p>
@@ -53,7 +56,17 @@ function CourseOverview() {
                             <p>Certificate of Completion</p>
                             <p>Access on Mobile andd TV</p>
                         </span>   
+                        <span >
+                           <p className="co-right_section_span3">
+                            <p>Share it:</p>
+                            <img  src="\public\CourseDetails_images\Dribble.png" alt="Instagram"></img>
+                            <img  src="\public\CourseDetails_images\Twitter.png" alt="Twitter"></img>
+                            <img  src="\public\CourseDetails_images\linkedin.png" alt="LinkedIn"></img>
 
+                            <img  src="\public\CourseDetails_images\facebook.png" alt="Facebook"></img>
+                            </p> 
+
+                        </span>
 
 
 
@@ -82,18 +95,19 @@ function CourseOverview() {
             <div className="co-d3">
                 <p> <b>What you will learn?</b></p>
             <div>
-                <p>Build responsive websites using HTML, CSS, and JavaScript.</p>
-                <p>Develop dynamic web applications with front-end frameworks.</p>
-                <p>Create and manage server-side logic with backend technologies.</p>
-                <p>Work with databases and perform CRUD operations.</p>
-                <p>Connect frontend and backend using RESTful APIs.</p>
-                <p>Deploy full stack applications to live servers.</p>
-                <p>Understand version control with Git and GitHub.</p>
-                <p>Gain real-world experience through hands-on projects.</p>
+                <p className="co-d3_p"><img className="tick-mark" src="\public\CourseDetails_images\checkmark-circle-02.png"></img> Build responsive websites using HTML, CSS, and JavaScript.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Develop dynamic web applications with front-end frameworks.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Create and manage server-side logic with backend technologies.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Work with databases and perform CRUD operations.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Connect frontend and backend using RESTful APIs.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Deploy full stack applications to live servers.</p>
+                <p className="co-d3_p"><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Understand version control with Git and GitHub.</p>
+                <p className="co-d3_p" ><img src="\public\CourseDetails_images\checkmark-circle-02.png"></img>Gain real-world experience through hands-on projects.</p>
             </div>
 
             </div>
-            
+            <Courses/>
+            <Footer/>
             </>
 
  ) ;
