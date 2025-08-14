@@ -561,3 +561,116 @@ footer {
         .white {
             color: white;
         }
+
+
+        .courseView_image{
+
+          width: 100%;
+          height: 600px;
+        }
+        .co-d1{
+          width: 824px;
+          height: 155px;
+          margin-left: 10px;
+        }
+       .overviewD1{
+             display: flex;
+              align-items: center;
+        justify-content: center;
+        flex-direction: start;
+        flex-wrap: wrap;
+        margin-left: 10px;
+        margin-top: 20px;
+        justify-content: space-between;
+        gap: 30px;
+        }
+        .co-image{
+          display: flex;
+          margin: 0;
+          margin-right: 2px;
+          position: relative;
+        }
+        .co-span{
+          display: flex;
+          gap: 10px;
+        }
+        .co-span2{
+            display: flex;
+            flex-direction: column;
+        }
+        .co-ul{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 30px;
+
+        }
+        .co-ul li{
+          list-style: none;
+          margin-right: 20px;
+        }
+        .co-ul li:hover{
+          color: blue;
+          cursor: pointer;
+        }
+        
+        .co-d3{
+          margin-top: 40px;
+          margin-left: 20px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+        }
+        .co-d3 p{
+          margin-top: 20px;
+        }
+        .co-main{
+          display: flex;
+         
+         
+          gap: 600px;
+         
+        }
+        .co-d2{
+          margin-top: 40px;
+          margin-left: 20px;
+          width: 776px;
+          height: 273px;
+          font-size: 18px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+
+        .co-right_section{
+          margin-right: 100px;
+          margin-left: 1000px;
+          width: 400px;
+          
+        }
+        .co-button{
+          padding: 10px 20px;
+          background-color: #2f6fed;
+          color: white;
+          border: none;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .co-button:hover{
+          background-color: #1c4ed9;
+        }
+        .co-right_section span{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-top: 20px; 
+          gap: 20px;
+        }
+        .co-right_section_span2{
+            color: #6F6F6F;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }

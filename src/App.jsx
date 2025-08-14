@@ -11,6 +11,7 @@ import Footer from './components/Home-page/Footer.jsx'
 import CourseNavbar from './components/Course-page/Navbar.jsx'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { Route } from 'react-router-dom'
+import CourseOverview from './components/Course-page/CourseDetails.jsx'
 function App() {
   return (
     <>
@@ -22,7 +23,8 @@ function App() {
       <Blogs />
       <Testimonials />
       <Footer /> */}
-      <CourseNavbar />
+      {/* <CourseNavbar /> */}
+      <CourseOverview />
        
     </>
   )
