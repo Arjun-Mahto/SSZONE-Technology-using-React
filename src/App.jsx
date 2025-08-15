@@ -14,6 +14,7 @@ import { Route } from 'react-router-dom'
 import CourseOverview from './components/Course-page/CourseDetails.jsx'
 import CourseCurriculum from './components/Course-page/CourseCurriculum.jsx'
 import CourseInsturctor from './components/Course-page/CourseInstructor.jsx'
+import CourseReview from './components/Course-page/CourseReview.jsx'
 function App() {
   return (
     <>
@@ -28,7 +29,8 @@ function App() {
       {/* <CourseNavbar /> */}
       {/* <CourseOverview /> */}
       {/* <CourseCurriculum/>  */}
-      <CourseInsturctor/>
+      {/* <CourseInsturctor/> */}
+      <CourseReview />
     </>
   )
 }

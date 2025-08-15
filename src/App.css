@@ -756,3 +756,30 @@ footer {
     padding: 10px;
     margin-bottom: 300px;
   }
+  .co-review{
+    display: flex;
+  margin-left: 40px;
+    width: 60%;
+    margin-top: 40px;
+
+    gap: 20px;
+  }
+  .cr-hr1{
+    margin-left: 80px;
+    width: 50%;
+  }
+  .co-review2{
+    margin-left: 40px;
+    margin-top: 100px;
+    
+  }
+  .co-review-span{
+    display: flex;
+  
+    gap: 20px;
+  }
+  .cr-p{
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #6F6F6F;
+  }
