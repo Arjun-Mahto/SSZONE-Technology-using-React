@@ -696,3 +696,36 @@ footer {
 
   /* flex-direction: row; */
 }
+
+
+  .course-outline{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-top: 20px; */
+    width: 60%;
+    gap: 20px;
+    height: 700px;
+    margin-left: 40px;
+    border: 1px solid #e0d7d7;
+    padding: 10px;
+  }
+  .co-d2-curriculum{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    
+    width: 60%;
+
+    height: 700px;
+
+
+  }
+  
+  .co-hr1{
+    border: 1px solid #e0d7d7;
+    width: 100%;
+  }  
+  
