@@ -13,6 +13,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { Route } from 'react-router-dom'
 import CourseOverview from './components/Course-page/CourseDetails.jsx'
 import CourseCurriculum from './components/Course-page/CourseCurriculum.jsx'
+import CourseInsturctor from './components/Course-page/CourseInstructor.jsx'
 function App() {
   return (
     <>
@@ -26,7 +27,8 @@ function App() {
       <Footer /> */}
       {/* <CourseNavbar /> */}
       {/* <CourseOverview /> */}
-      <CourseCurriculum/> 
+      {/* <CourseCurriculum/>  */}
+      <CourseInsturctor/>
     </>
   )
 }
