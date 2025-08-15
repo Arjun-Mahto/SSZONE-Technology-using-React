@@ -783,3 +783,15 @@ footer {
     margin-left: 40px;
     color: #6F6F6F;
   }
+  .aboutus_image{
+    width: 100%;
+  }
+  .au-main{
+    margin-top: 100px;
+
+  }
+  .aboutusPage{
+    background-color: white;
+    height: 300px;
+    
+  }

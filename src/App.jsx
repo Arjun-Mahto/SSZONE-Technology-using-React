@@ -15,6 +15,7 @@ import CourseOverview from './components/Course-page/CourseDetails.jsx'
 import CourseCurriculum from './components/Course-page/CourseCurriculum.jsx'
 import CourseInsturctor from './components/Course-page/CourseInstructor.jsx'
 import CourseReview from './components/Course-page/CourseReview.jsx'
+import AboutUsPage from './components/About-us/About-us.jsx'
 function App() {
   return (
     <>
@@ -30,7 +31,9 @@ function App() {
       {/* <CourseOverview /> */}
       {/* <CourseCurriculum/>  */}
       {/* <CourseInsturctor/> */}
-      <CourseReview />
+      {/* <CourseReview /> */}
+
+      <AboutUsPage />
     </>
   )
 }
