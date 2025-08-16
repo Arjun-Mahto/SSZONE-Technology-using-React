@@ -795,3 +795,84 @@ footer {
     height: 300px;
     
   }
+  .contactUs_image{
+    width: 100%;
+  }
+  .contactus_main{
+    margin-left: 80px;
+  
+    margin-top: 50px;
+    display: flex;
+    gap: 350px;
+  }
+  .contactus_left_para{
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .contact-container {
+  
+  margin: 20px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 400px;
+}
+
+.form-subtitle {
+  color: #2563eb;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+.btn-submit {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: #1d4ed8;
+}
