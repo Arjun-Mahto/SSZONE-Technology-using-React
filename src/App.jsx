@@ -17,6 +17,8 @@ import CourseInsturctor from './components/Course-page/CourseInstructor.jsx'
 import CourseReview from './components/Course-page/CourseReview.jsx'
 import AboutUsPage from './components/About-us/About-us.jsx'
 import Contact_us from './components/Contact-us/Contact_Us.jsx'
+import Whislist from './components/Wishlist._page/Wishlist.jsx'
+import Blog from './components/Blogs/Blogs.jsx'
 function App() {
   return (
     <>
@@ -37,7 +39,10 @@ function App() {
       {/* <AboutUsPage /> */}
 
 
-        <Contact_us />
+        {/* <Contact_us /> */}
+
+        {/* <Whislist /> */}
+        <Blog />
 
 
 

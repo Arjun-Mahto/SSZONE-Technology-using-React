@@ -1,24 +1,8 @@
-import React from "react";
-
-function Blogs() {
+function BlogsCart() {
   return (
-    <>
-      <div className="blogs">
-        <div>
-          <center>
-            <p id="para1"><b>Our Blogs</b></p>
-          </center>
-          <center>
-            <p id="para2">Latest Blogs</p>
-          </center>
-          <center>
-            <p id="blogs_para3">
-              Stay updated with the latest insights, tips, and trends from our expert blog posts.
-            </p>
-          </center>
-        </div>
-      <BlogsCart />
-        {/* Second row of cards */}
+<>
+
+        {/* First row of cards */}
         <div className="card-container">
           <div className="card">
             <div>
@@ -42,7 +26,7 @@ function Blogs() {
 
           <div className="card">
             <div>
-              <img src="/Blogs_images/istockphoto-1987424613-612x612 1.png" alt="Course" />
+              <img src="Blogs_images/istockphoto-1987424613-612x612 1.png" alt="Course" />
             </div>
             <div className="card-body">
               <div className="card-title">
@@ -76,9 +60,9 @@ function Blogs() {
             </div>
           </div>
         </div>
-      </div>
-    </>
+
+
+</>
   );
 }
-
-export default Blogs;
+export default BlogsCart;   

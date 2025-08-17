@@ -14,8 +14,8 @@ function Contact_us(){
 
         <div className="contactus_main">
             <div className="contactus_left">
-                <p> Get in Touch</p>
-                <p>We're here to help</p>
+                <p className="cu-p"> Get in Touch</p>
+                <p className="font-size"><b>We're here to help</b></p>
                 <span className="contactus_left_para">
                     <img src="/ContactUSpage_images/Location.png" alt="Phone Icon" />
                     <span>
