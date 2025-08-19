@@ -895,3 +895,195 @@ textarea {
 .blogs_image{
   width: 100%;
 }
+
+.blog-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 400px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+}
+
+.blog-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.thumbnail {
+  width: 100px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.date {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+  cursor: pointer;
+}
+
+.title:hover {
+  color: #1a73e8;
+}
+
+
+.shopping-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.courses-count {
+  color: #1a73e8;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.cart-layout {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-items {
+  flex: 2;
+}
+
+.cart-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.course-img {
+  width: 100px;
+  height: 70px;
+  border-radius: 4px;
+  margin-right: 15px;
+}
+
+.course-details {
+  flex: 1;
+}
+
+.course-details h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.author {
+  color: #666;
+  font-size: 14px;
+}
+
+.rating {
+  color: #f39c12;
+  font-size: 14px;
+}
+
+.meta {
+  color: #777;
+  font-size: 13px;
+}
+
+.course-price {
+  font-weight: bold;
+  margin: 0 15px;
+}
+
+.remove-btn {
+  border: none;
+  background: none;
+  color: #1a73e8;
+  cursor: pointer;
+}
+
+.cart-summary {
+  flex: 1;
+}
+
+.order-box, .promo-box {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.order-box h3, .promo-box h3 {
+  margin-bottom: 10px;
+}
+
+.order-box p, .promo-box p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.checkout-btn {
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.applied-coupon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.remove-coupon {
+  border: none;
+  background: none;
+  color: red;
+  cursor: pointer;
+}
+
+.promo-box input {
+  width: calc(100% - 70px);
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.apply-btn {
+  padding: 8px 12px;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

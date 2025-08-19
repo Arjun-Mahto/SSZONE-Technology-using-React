@@ -19,6 +19,8 @@ import AboutUsPage from './components/About-us/About-us.jsx'
 import Contact_us from './components/Contact-us/Contact_Us.jsx'
 import Whislist from './components/Wishlist._page/Wishlist.jsx'
 import Blog from './components/Blogs/Blogs.jsx'
+import BlogsDetail from './components/BlogsDetails/BlogsDetail.jsx'
+import Cart from './components/Cart/Cart.jsx'
 function App() {
   return (
     <>
@@ -42,7 +44,10 @@ function App() {
         {/* <Contact_us /> */}
 
         {/* <Whislist /> */}
-        <Blog />
+        {/* <Blog /> */}
+        {/* <BlogsDetail /> */}
+
+        <Cart />
 
 
 
