@@ -1,3 +1,4 @@
+import Cards from "../Home-page/Cards";
 import Footer from "../Home-page/Footer";
 import Navbar from "../Home-page/Navbar";
 
@@ -22,7 +23,7 @@ function Cart() {
         <div className="cart-items">
           <div className="cart-card">
             <img
-              src="/Cart_images/image.png"
+              src="\public\Cart_images\Image.png"
               alt="Course Thumbnail"
               className="course-img"
             />
@@ -38,7 +39,7 @@ function Cart() {
 
           <div className="cart-card">
             <img
-              src="/Cart_images/image.png"
+              src="\public\Cart_images\Image.png"
               alt="Course Thumbnail"   
               className="course-img"
             />
@@ -52,7 +53,6 @@ function Cart() {
             <button className="remove-btn">Remove</button>
           </div>
         </div>
-    
 
 
 
@@ -86,8 +86,20 @@ function Cart() {
       </div>
     </div>
 
-
-
+ <div>
+          <center>
+            <p id="para1"><b>Explore Recommended Course</b></p>
+          </center>
+          <center>
+            <p id="para2">You Might Also Like</p>
+          </center>
+          <center>
+            <p id="blogs_para3">
+              Stay updated with the latest insights, tips, and trends from our expert blog posts.
+            </p>
+          </center>
+        </div>
+        <Cards />
     <Footer />
         </>
     )
