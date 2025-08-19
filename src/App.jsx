@@ -21,6 +21,7 @@ import Whislist from './components/Wishlist._page/Wishlist.jsx'
 import Blog from './components/Blogs/Blogs.jsx'
 import BlogsDetail from './components/BlogsDetails/BlogsDetail.jsx'
 import Cart from './components/Cart/Cart.jsx'
+import Billing from './components/Billing page/Billing.jsx'
 function App() {
   return (
     <>
@@ -47,7 +48,9 @@ function App() {
         {/* <Blog /> */}
         {/* <BlogsDetail /> */}
 
-        <Cart />
+        {/* <Cart /> */}
+
+        <Billing />
 
 
 
