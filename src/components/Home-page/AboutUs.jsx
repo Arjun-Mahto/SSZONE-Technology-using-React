@@ -5,18 +5,18 @@ function AboutUs() {
         <>
             <div> 
         
-     <center><button class="explore_courses">Explore All Courses</button></center>  
+     <center><button className="explore_courses">Explore All Courses</button></center>  
 </div>        
-<section class="about-us">
-    <div class="left-section">
+<section className="about-us">
+    <div className="left-section">
 
-        <p class="aboutus">About us</p>
-        <p class="about_para1">Start learning with skills </p>
-        <p class="about_para2">Hunt Now</p>
-        <p class="about_para3">Tap into your full potential with online courses guided by industry experts.
+        <p className="aboutus">About us</p>
+        <p className="about_para1">Start learning with skills </p>
+        <p className="about_para2">Hunt Now</p>
+        <p className="about_para3">Tap into your full potential with online courses guided by industry experts.
 Master high-demand skills on your schedule and take control of your 
 career journey today.</p>
-    <div class="about-container">
+    <div className="about-container">
         <div>
 
             <img src="/AboutUs_images/Learning.png"/>
@@ -31,9 +31,9 @@ career journey today.</p>
         <p>Get our verified certificate</p>
         </div>
   </div>
-            <button class="browse-courses">Browse courses</button>
+            <button className="browse-courses">Browse courses</button>
     </div>
-    <div class="right-section">
+    <div className="right-section">
         <img src="/AboutUs_images/aboutus_image04.png"/>
         <img src="/AboutUs_images/aboutus-pexels-julia-m-cameron-4144224 1.png"/>
             

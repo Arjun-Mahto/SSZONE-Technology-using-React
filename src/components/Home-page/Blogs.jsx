@@ -17,7 +17,7 @@ function Blogs() {
             </p>
           </center>
         </div>
-      <BlogsCart />
+      
         {/* Second row of cards */}
         <div className="card-container">
           <div className="card">
