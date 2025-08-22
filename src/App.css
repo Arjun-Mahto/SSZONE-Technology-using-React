@@ -47,30 +47,35 @@ button {
     color: #2f6fed;
     cursor: pointer;
 }
+.navbar_btn1:hover {
+    background-color: #0b55dd;
+    color: white;
+
+}
+.color_black{
+  color: black;
+  margin-left: 2px;
+}
+.color_black:hover{
+  color: blue;
+  cursor: pointer;
+}
+
 
 /* Hero Section */
+
+
 .hero-section {
     display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: row;
+   
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
 }
 
 .left_section, .right_section {
     flex: 1 1 100%;
     text-align: center;
-}
-.left_section{
-    height: 524px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-evenly;
-     */
-     gap: 50px;
-     margin-top: 40px;
-    align-items: flex-start;
 }
 
 .left_para1 {
@@ -91,15 +96,46 @@ button {
 
 .hero-section button {
     margin-top: 20px;
-    width: 200px;
+}
+.hero-section button :hover {
+    background-color: #1c4ed9;
+    color: white;
 }
 
 /* Image Responsive */
 .right_section img {
-    width: 100%;
-    max-width: 675px;
+    /* width: 100%; */
+    /* max-width: 675px; */
     height: auto;
 }
+
+/* Featured Companies */
+.feature_company {
+    border-bottom: 20px;
+    padding: 20px 0;
+}
+
+.feature_company ul {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature_company ul li {
+    margin-right: 20px;
+    padding: 10px;
+    list-style: none;
+}
+
+.feature_company img {
+    width: 153px;
+    height: auto;
+    max-width: 100%;
+}
+
+
 
 /* Featured Companies */
 .feature_company {
@@ -1179,3 +1215,4 @@ textarea {
 .place-order:hover {
   background: #1d4ed8;
 }
+

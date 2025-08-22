@@ -16,9 +16,8 @@ return  (
             <img src="/HeroSection_images/istockphoto-1353588870-612x612-removebg-preview 1.png"/>
         </div>
     </div>
+</>
 
-
-        </>
 )
 }
 
